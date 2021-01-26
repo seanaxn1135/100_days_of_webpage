@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2PJS1NVRFK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2PJS1NVRFK');
+</script>
+<link rel="stylesheet" href="css/stopWatch.css">
+</head>
+<body>
+  <h1>Timer and Stop Watch</h1>
+  <div class="tabs">
+    <button class="tablinks" onclick="openTab(event, 'stopWatch')">Stop Watch</button>
+    <button class="tablinks" onclick="openTab(event, 'timer')">Timer</button>
+  </div>
+  <div id="stopWatch" class="tabcontent">
+    <h3>Stop Watch</h3>
+    <div id="stopWatch_time">00:00:00</div>
+    <div class="stopWatch_buttons">
+      <button class="stopWatch_start" onclick="startStopWatch()">Start</button>
+      <button class="stop" onclick="stopStopWatch()">Stop</button>
+      <button class="reset" onclick="resetStopWatch()">Reset</button>
+    </div>
+  </div>
+  <div id="timer" class="tabcontent">
+    <h3>Timer</h3>
+    <div id="timer_time">00:00</div>
+    <div class="timer_input">
+      <span>Minutes: </span><input type="number" max="59" id="mins">
+      <span>Seconds: </span><input type="number" max="59" id="secs">
+    </div>
+    <div class="timer_start_button">
+      <button class="start" onclick="startTimer()">Start</button>
+      <button class="stop" onclick="stopTimerb()">Stop</button>
+      <button class="reset" onclick="resetTimer()">Reset</button>
+    </div>
+  </div>
+  <script src="js/stopWatch.js"></script>
+</body>
+</html>

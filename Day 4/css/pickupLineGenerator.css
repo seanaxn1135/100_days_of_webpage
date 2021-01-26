@@ -1,0 +1,44 @@
+body{
+    background-color: #fade95;
+}
+
+h1{
+    font-size: 40px;
+    font-family: "Helvetica";
+    color: #fa95b1;
+    padding: 60px 0;
+    text-shadow: -2px -2px 2px rgba(0,0,0,0.6);
+}
+
+p{
+    font-size: 30px;
+    font-family: "Helvetica";
+    color: #060500;
+    padding: 60px 60px 60px 60px;
+    text-shadow: -1px -1px 1px rgba(0,0,0,0.6);
+}
+
+button{
+    font-family: "Helvetica";
+    font-size: 18px;
+    color:#191201;
+    background-color: #95b1fa;
+    padding: 15px 32px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+
+#wrap {
+	padding-bottom: 58px;
+	height: 600px;	
+}
+
+#container {
+	position: relative;
+    width: 100%;
+    height: 35%;
+    min-width: 300px;
+	margin: 0 auto;
+    text-align: center;
+}

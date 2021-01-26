@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2PJS1NVRFK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2PJS1NVRFK');
+</script>
+    <title>Word Counter</title>
+    <link rel="stylesheet" href="css/wordcounter.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="headercontent">
+                <h1>Word Counter</h1>
+            </div>
+        </div>
+        <div class="wordcounter">
+            <div class="userinput">
+                <textarea id="input" name="input" placeholder="Type here..." cols="100" rows="30"></textarea>
+            </div>
+            <div class="details">
+                <div class="attributes">
+                    Words <span id="words"  class="result">0</span>
+                </div>
+                <div class="attributes">
+                    Characters <span id="characters"  class="result">0</span>
+                </div>
+                <div class="attributes">
+                    Reading Time
+                    <div class="tooltip">?
+                        <span class="tooltiptext">Based on an average reading speed of 240 words per minute</span>
+                    </div> <span id="readingtime" class="result">0 sec</span>
+                </div>
+                <div class="attributes">
+                    Speaking Time 
+                    <div class="tooltip" id="speakingtime-info">?
+                        <span class="tooltiptext">Based on an average speaking speed of 180 words per minute</span>
+                    </div> <span id="speakingtime" class="result">0 sec</span>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+    <script src="js/wordcounter.js"></script>
+</body>
+</html>

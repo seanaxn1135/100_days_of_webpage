@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2PJS1NVRFK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2PJS1NVRFK');
+</script>
+<link rel="stylesheet" href="css/weather.css">
+</head>
+<body>
+    <img src="images/default.jpg" class="background-image" id="background-image">
+    <div class="weatherApp">
+        <h1>
+            The Weather in Singapore now:
+            <span class="weather" id="weather"></span>
+        </h1>
+        <div class="temperature">
+            Temperature: <span class="temperatureValue" id="temperatureValue"></span>
+        </div>
+    </div>
+    <script src="js/config.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>

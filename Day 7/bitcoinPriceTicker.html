@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2PJS1NVRFK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2PJS1NVRFK');
+</script>
+    <title>Bitcoin Price Ticker</title>
+    <link rel="stylesheet" href="css/bitcoinPriceTicker.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+
+        </div>
+        <div class="ticker">
+            <div id="bitcoinPicture">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/240px-Bitcoin.svg.png" alt="bitcoin logo">
+            </div>
+            <div id="title">
+                <h1>Bitcoin's Price is now:</h1> 
+            </div>
+            <div id="pricediv">
+                <p id="price"></p>
+                <p id="time"></p>
+            </div>
+        </div>
+        <div class="footer">
+            <p><a href="https://www.coindesk.com/price/bitcoin">Powered by CoinDesk</a></p>
+        </div>
+    </div>
+    <script src="js/bitcoinPriceTicker.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reactiontime.css">
+    <title>Reaction Time Test</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2PJS1NVRFK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2PJS1NVRFK');
+</script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            Reaction Time Test
+        </div>
+        <div class="body">
+            <div class="instructions">
+                Press the circle when it turns green
+            </div>
+            <div class="circle" id="circle"></div>
+            <div class="startbutton">
+                <button id="startbutton" onclick="start_game()">Start</button>
+            </div>
+            <div class="results" id="results"></div>
+        </div>
+    </div>
+    <script src="js/reactiontime.js"></script>
+</body>
+</html>

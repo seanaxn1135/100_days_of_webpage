@@ -1,0 +1,28 @@
+body{
+    background-color: #d8b3a5;
+    margin: 0;
+    position: absolute;
+}
+
+.header {
+    color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  position: relative;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  margin: 0;
+}
+
+
+.video{
+    height: 500px;
+    width: 1200px;
+    margin: 0;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}

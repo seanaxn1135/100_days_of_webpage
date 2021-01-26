@@ -1,0 +1,47 @@
+body{
+    background-color: #F2A900;
+}
+
+.footer{
+    background-color: #313336;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3.5rem;
+    margin: 0;
+    left: 0px;
+    text-align: center;
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+h1{
+    font-family: Ubuntu, sans-serif;
+}
+
+#price{
+    position: relative;
+    font-size: 100px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px auto;
+}
+
+#bitcoinPicture{
+    padding: 18px;
+    height: auto;
+}
+
+#time{
+    font-size: 14px;
+    margin: 30px auto;
+    font-family: Ubuntu, sans-serif;
+}
+
+.ticker{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+}
