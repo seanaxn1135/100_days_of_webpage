@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    background-color: #ddd;
+}
+
+.counter{
+    font-size: 2vw;
+    background-color: white;
+    width: 20%;
+    height: 20%;
+    border: 5px solid #999999;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    line-height: 20vh;
+}
